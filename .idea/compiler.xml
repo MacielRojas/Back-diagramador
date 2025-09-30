@@ -7,6 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+      </profile>
+      <profile name="Annotation profile for usersmanagementsystem" enabled="true">
+        <sourceOutputDir name="../../../sw2/back-end/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../../../sw2/back-end/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
         <module name="usersmanagementsystem" />
       </profile>
     </annotationProcessing>
